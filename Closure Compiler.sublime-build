@@ -1,0 +1,19 @@
+{
+   "cmd": [
+      "java",
+      "-jar", "${packages}/Closure Compiler/bin/compiler.jar",
+      "--language_in", "ECMASCRIPT5_STRICT",
+      "--js", "$file",
+      "--js_output_file", "${file_base_name}.min.${file_extension}"
+   ],
+    "windows": {
+        "cmd": [
+        "java",
+        "-jar", "${packages}\\Closure Compiler\\bin\\compiler.jar",
+        "--language_in", "ECMASCRIPT5_STRICT",
+        "--js", "$file",
+        "--js_output_file", "${file_base_name}.min.${file_extension}"
+      ]
+    },
+   "selector": "source.js, source.css"
+}
