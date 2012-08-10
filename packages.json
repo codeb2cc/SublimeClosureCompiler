@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "Closure Compiler",
+            "description": "Google Closure Compiler for Sublime Text 2",
+            "author": "Codeb Fan (codeb2cc)",
+            "homepage": "https://github.com/codeb2cc/SublimeClosureCompiler",
+            "last_modified": "2012-08-10 12:00:00",
+            "platforms": {
+            "*": [
+                    {
+                        "version": "0.1",
+                        "url": "https://github.com/codeb2cc/SublimeClosureCompiler"
+                    }
+                ]
+            }
+        }
+    ]
+}
