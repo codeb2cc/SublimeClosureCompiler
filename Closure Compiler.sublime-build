@@ -1,7 +1,7 @@
 {
    "cmd": [
       "java",
-      "-jar", "${packages}/Closure Compiler/bin/compiler.jar",
+      "-jar", "${packages}/SublimeClosureCompiler/bin/compiler.jar",
       "--language_in", "ECMASCRIPT5_STRICT",
       "--compilation_level", "ADVANCED_OPTIMIZATIONS",
       "--js", "$file",
@@ -10,7 +10,7 @@
     "windows": {
         "cmd": [
         "java",
-        "-jar", "${packages}\\Closure Compiler\\bin\\compiler.jar",
+        "-jar", "${packages}\\SublimeClosureCompiler\\bin\\compiler.jar",
         "--language_in", "ECMASCRIPT5_STRICT",
         "--compilation_level", "ADVANCED_OPTIMIZATIONS",
         "--js", "$file",
